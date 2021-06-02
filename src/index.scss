@@ -1,0 +1,16 @@
+@use './abstracts';
+
+* {
+  font-family: 'RobotoMono', monospace;
+}
+
+body {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+
+  color: #fff;
+  background: linear-gradient(to right, rgba(83, 105, 118, .7), rgba(41, 46, 73));
+}

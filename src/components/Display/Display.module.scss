@@ -1,0 +1,13 @@
+@use '../../abstracts' as *;
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: .8em;
+    font-size: $font-size;
+    font-weight: $font-weight;
+
+    grid-column: span 4;
+    background-color: #0004;
+}

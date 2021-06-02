@@ -1,0 +1,32 @@
+@use '../../abstracts' as *;
+
+.button {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    background-color: $bg-button;
+    border: none;
+    border-right: $border-button;
+    border-bottom: $border-button;
+    outline: none;
+}
+
+.button:active {
+    background-color: $bg-button-active;
+}
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+}
+
+.button.operator {
+    background-color: $bg-operator;
+    color: $color-operator;
+}
+
+.button.operator:active {
+    background-color: $bg-operator-active;
+}
