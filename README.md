@@ -1,2 +1,2 @@
 # Calc-set-
-a clone model of Apple calculator
+a _clone_ model of **Apple calculator**
